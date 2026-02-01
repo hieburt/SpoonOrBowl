@@ -1,0 +1,22 @@
+{
+  "name": "ImageItem",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Optional title for the image"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "URL of the uploaded image"
+    },
+    "is_active": {
+      "type": "boolean",
+      "default": true,
+      "description": "Whether this image is shown to visitors"
+    }
+  },
+  "required": [
+    "image_url"
+  ]
+}
